@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Analytics with Statistics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./programming-requirements.html" rel="next">
+<link href="./course-support.html" rel="prev">
+<link href=".//images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta property="og:title" content="Data Analytics with Statistics">
+<meta property="og:description" content="Course Overview">
+<meta property="og:site-name" content="Data Analytics with Statistics">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Schedule</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/data-analytics-ws2324" rel="" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
+    <a href="https://moodle.hdm-stuttgart.de/course/view.php?id=16202" rel="" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-person-fill"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Course information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-support.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Support</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Programming</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./programming-requirements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Requirements</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Project</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-description.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Description</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project-tips-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tips + resources</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Analytics with Statistics</h1>
+<p class="subtitle lead">Course Overview</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Welcome to our course Data Analytics with Statistics! 👋</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that this schedule will be updated as the seminar progresses.</p>
+</div>
+</div>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Nr.</th>
+<th>Topic</th>
+<th>Literature</th>
+<th>Slides</th>
+<th>Links</th>
+<th>Code</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>Introduction</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Data driven decision making</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Programming toolkit</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1AHDCyelaOumvZ9-MRLEaSGCulXvvo-hcoFRrTESQW-c/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Data Science Lifecycle Overview</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1LR0LmvKFycE3MIjfDEp6L_bGdJtCOe60rFycWIYayBI/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Use case identification</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1RT7IhYgLgNJ8RiT28sMr8Mfyk5y_e-rfYg3jRsPKGEA/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Frame the Problem</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/12WRK3EgiHOHz2vsJnYxIxNvDQmjTMax1iTSqsjVr7JY/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Identify Variables</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1VqXuDX_3VFNOGMw3y3uQmvFr2m7b6BlW3if_icQSstM/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Define Metrics</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1vlVqqU4Frt8y_GaCs4qVx7EVPyNravGhpgkV6tGeYmY/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><strong>Data</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>First Data Analysis</td>
+<td><a href="https://openintro-ims.netlify.app/data-hello.html#case-study-stents-strokes">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1YXoCWZv37c3u_cMBc3o2_IG_atDlGdLhCwin_Rciwck/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ae/1_netflix.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Data basics</td>
+<td><a href="https://openintro-ims.netlify.app/data-hello.html#data-basics">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1IlR_HTTNE865xiT3GlXD5_RNZDMMtlbNKRftLXPPmsw/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/EJT7mcYgPi8drKgR9">☑️</a></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>How to obtain data</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Data wrangling: Pandas lab</td>
+<td><a href="https://pandas.pydata.org/docs/">📚</a></td>
+<td><a href="https://kirenz.github.io/lab-pandas-intro">💻</a></td>
+<td></td>
+<td></td>
+<td>Application Exercise</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Data analysis: Survey lab</td>
+<td></td>
+<td><a href="https://kirenz.github.io/lab-survey">💻</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td><strong>Study Design</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Population and sample</td>
+<td><a href="https://openintro-ims.netlify.app/data-design.html#data-design">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1QPdxp5sFumf9zee-WypsuzSkY7n_hvkhFsdJkRF3-pw/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/qPYg55ncRyUGCqXH8">☑️</a></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Sampling methods</td>
+<td><a href="https://openintro-ims.netlify.app/data-design.html#sampling-principles-strategies">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1Rby9NR9F8pu1xHka0Xt1vvbH-oDRfrFC-bwb49IbhA8/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/SnQsTPKF5CRQ1Wa49">☑️</a></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Experiments</td>
+<td><a href="https://openintro-ims.netlify.app/data-design.html#experiments">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1FTNBLYBCId2qsL1sMJf3qgBtaFH3hpbUm8lPck5BaTQ/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/6Tu92Ez83XANW8Un6">☑️</a></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Observations</td>
+<td><a href="https://openintro-ims.netlify.app/data-design.html#observational-studies">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1Oz5T_nuO1UFcjbliFmsEQWxG1dKJHDPPNWDeTvukxbE/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/V36KmsTjeH2finms9">☑️</a></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td><strong>EDA with categorical data</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Loans data</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#explore-categorical">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1o0TVpTvndPA1J23CdTtEThYSekjudkGXuW9HiEA65yc/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-data-overview.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Contingency tables</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#contingency-tables-and-bar-plots">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1xIfx5wWjSi2ciGDo3OcYmjOYWzQZ5jWC-UwqioKKO6k/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-contingency-table.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Contingency tables with proportions</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#row-and-column-proportions">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1fY1jRrnluZg9MDei9hcdtCRmRXlUqCg6lonQVzkItPQ/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-3-row-column-proportions.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Simple bar chart</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#contingency-tables-and-bar-plots">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1RpYvnIxE5QCK3-urCa76CHUvDqOKlFb7TdAn6XgYjew/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-bar-chart-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Stacked bar plot</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#bar-plots-with-two-variables">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1TU5pqJqfgzcBRitDtSxjdRPhwl2TM9Rt3u3FHTPT020/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-2-stacked-bar-chart-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Standardized bar plot</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#bar-plots-with-two-variables">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1BV7XwkZLfTMe5acsDomL3pcSsNhatpswRa11XuzNuLQ/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-2-standardized-bar-chart-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td>Pie chart</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#pie-charts">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1Ks3jugleTrpLHwI0CDcPl2P7Uvj5z-iR35iTKJeNGxY/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-4-pie-charts-altair.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td><strong>EDA with numerical data</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>29</td>
+<td>Scatterplot</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#scatterplots">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1K13NYtk-fXgIZCszUWkSN1FWqLPf8Ey8U7l9YZSQDtU/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-1-scatterplot-paired-data-altair.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td>Dot plot mean median and mode</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#dotplots">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1x0gxZ063LQOHHvvTdwP_086HPfl3Ul2PuzGDZFLXzI0/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-2-dot-plots-mean-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Histogram</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#histograms">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1tpbG5V28sIVdLuE_oIWzz59tRMRNL8baXu2xHzE4Hb4/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-3-histograms-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Box Plot</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#boxplots">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1VqT9rAbE_1zfhLrWNiQRiOjiJ0-pSjN1T0DM_BMAl_A/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-5-box-plot-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Comparing numerical data across groups</td>
+<td><a href="https://openintro-ims.netlify.app/explore-categorical.html#comparing-numerical-data-across-groups">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1yWzxDmaSVwygOQoAuRdYLq_32lIe_utHlaOWW5f63jk/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-6-comparisons-across-groups-altair.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Variance and standard deviation</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#histograms">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1bsu5VJyS1LMFM3N6oh66dQ-Qf3DWiqRMPvasIbRqpLU/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Kernel density plot</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#histograms">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-3-histograms-kernel-density-altair.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Robust statistics and transformations</td>
+<td><a href="https://openintro-ims.netlify.app/explore-numerical.html#robust-statistics">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/16Oy2-hXJgTd4IUjYSj6ZN0gBimS_Oe5OSpe7B6I91qg/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>37</td>
+<td><strong>Models</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>38</td>
+<td>Statistical Learning, Machine Learning</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1P3MkbJseVwLggUP_lGoNoZ3mk4_nOOBFZ6GmVzvBCzM/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>39</td>
+<td>Types of Models</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1ZycVKQLPSHGUv3Mga1CE3BHTL0W_gfszs6SkEh7fzeU/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>40</td>
+<td><strong>Linear Regression models</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Correlation</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#describing-linear-relationships-with-correlation">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1JyvtQBRiUhjncLki3ozy4SvvgwRqS7Gmj_vUpFokzzo/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/5ntV6z8yHk8g4qgZ8">☑️</a></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-2-correlation.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Sales and ads</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1q9o_PycjwItr-5PxotZFFzkwdqvo8fVskv_Y0H1CbxE/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-models/blob/main/ae/1_intro_sales.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Mean squared error</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1DnX0RnGCguOE2elQJFrcu2efZp6hjre7fsTrAfBJQTA/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Application exercise</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>Fitting a line and residuals</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#fit-line-res-cor">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/18xWbx5rkptYfOaqzpfIc7RD-LC9Y-Wgs_7tz9Z2a2hg/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/JFMXzjByDRGZtbDx8">☑️</a></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-1-fitting.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Least squares regression</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#least-squares-regression">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1jreIuC0fOiVPHt6CUNYb-Kb4uKogCeftBZP5Zum6jSQ/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-3-least-squares.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>R squared</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#r-squared">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1ZIijR7F877M9peDH2rhb3IO7dP6JGDd1ypz_C2pAyGI/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-4-strength-fit.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>47</td>
+<td>Categorical predictors with two levels</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#categorical-predictor-two-levels">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1Ca1pslYtl_bsPgY00JMhseV4klnU81AWw6s5Y8a15PA/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-5-categorical.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>48</td>
+<td>Outliers</td>
+<td><a href="https://openintro-ims.netlify.app/model-slr.html#outliers-in-regression">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1UxbXpM0_BtZu9nAUczUopOOGT39hzn9Ucz0jOTYmM_Y/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>49</td>
+<td>Multiple predictors regression 1</td>
+<td><a href="https://openintro-ims.netlify.app/model-mlr.html#model-mlr">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1ijhtWW58Kx1-ltulPSc1dKotJrXS7ZTGi6RFCKOGStA/export/pdf">📑</a></td>
+<td><a href="https://forms.gle/wHPHMvbTDczNaQD97">☑️</a></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-1-multiple.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>50</td>
+<td>Multiple predictors regression 2</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-2-multiple.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Multiple predictors regression 3</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-3-multiple.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td><strong>Linear Regression with Data Splitting</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Regression example happier</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1ZrzKUPZqp7GlCAh4uFpXnvUW6kQTvUgD2G-YZ7B24aM/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-models/blob/main/mr/happier-c.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Main model challenges</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1WPUVfUe4rZu1bt61IwjneHqldhH9nC6U0F_u7Mj_ZL4/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>Data splitting</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/16DAGzUTUzI_prncqDeZx2HhpNnM_xTOL_Na0xTaDeVk/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-models/blob/main/mr/happier-splitting-c.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>Sales prediction</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1CQUpb2fwezmni-GUeTsbxkE9ZekKK69eAzqKEdUBAm8/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08c-1-sales.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>57</td>
+<td>Sales prediction with data splitting</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08c-2-sales.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>58</td>
+<td><strong>Advanced Linear Regression models</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>59</td>
+<td>Regression splines</td>
+<td><a href="https://www.statlearning.com/">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-splines.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>60</td>
+<td>Generalized additive models</td>
+<td><a href="https://www.statlearning.com/">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-gam.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Adjusted R squared</td>
+<td><a href="https://openintro-ims.netlify.app/model-mlr.html#adjusted-r-squared">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/17l_8tVrVxyZRBZylkHa4J4ACCgp43gIqVgBQ5tuB9KM/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Regression diagnostics</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-diagnostics.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td><strong>Model Selection Methods</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Model selection methods</td>
+<td><a href="http://www.feat.engineering/selection.html">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1nosMLlMYxQ6gMw9betZ9AL6z8sHGqM7s9jL-Mf0VnXo/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Implicit model selection</td>
+<td><a href="https://www.statlearning.com/">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-1-implicit.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>Lasso regression</td>
+<td><a href="https://www.statlearning.com/">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-lasso-c.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>67</td>
+<td>Filter model selection</td>
+<td><a href="http://www.feat.engineering/selection.html">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-2-filter.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>68</td>
+<td>Wrapper model selection</td>
+<td><a href="http://www.feat.engineering/selection.html">📚</a></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-3-wrapper.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>69</td>
+<td><strong>Classification models</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>70</td>
+<td>Classification</td>
+<td></td>
+<td><a href="https://docs.google.com/presentation/d/1Uait12xIaTM9rdyxSEnzIbR8opENnoOOPefuPocze3s/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>71</td>
+<td>Precision recall and F1 score</td>
+<td><a href="https://mlu-explain.github.io/precision-recall/">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1X3_Ju8egEA8GwH_r76rxHHoC7tvHt8tMWXyT9WKfUko/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="even">
+<td>72</td>
+<td>ROC Curve and AUC</td>
+<td><a href="https://mlu-explain.github.io/roc-auc/">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1wapuNTe4wVBUZVmH_X6-OxZlWkQL_YkhHsqZttQUWZk/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>73</td>
+<td>Probability of an event</td>
+<td><a href="https://openintro-ims.netlify.app/model-logistic.html#modelingTheProbabilityOfAnEvent">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1VeNM1TK6XXquHEmVNNUmzXOvdgqDFGVilN310Z6JKeg/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/09a-logistic-c.ipynb">💻</a></td>
+<td>Self-study</td>
+</tr>
+<tr class="even">
+<td>74</td>
+<td>Logistic regression in Python</td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-logistic-online.ipynb">💻</a></td>
+<td>Lecture</td>
+</tr>
+<tr class="odd">
+<td>75</td>
+<td><strong>Statistical Inference</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>76</td>
+<td>introduction</td>
+<td><a href="https://openintro-ims.netlify.app/foundations-mathematical.html">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/16CnOWEpi1E7ThpWlEJ4CaSNFmqRfFM322lUXXwFmKeQ/export/pdf">📑</a></td>
+<td></td>
+<td><a href="https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/13a-mathematical-c.ipynb">💻</a></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>77</td>
+<td>Cases and confidence</td>
+<td><a href="https://openintro-ims.netlify.app/foundations-mathematical.html#caseopp">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1q-m2yp2zFZW3plabPVkDbUQxypoiUujbk4rmA4K_kHw/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>78</td>
+<td>Decision errors</td>
+<td><a href="https://openintro-ims.netlify.app/decerr.html">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1ei-Tt6pqpPl_5oiMDMA9Coavf3ksCauxsJx2oK4U6L0/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>79</td>
+<td>Single proportion</td>
+<td><a href="https://openintro-ims.netlify.app/inference-one-prop.html#one-prop-norm">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/120AeFtpSKdjaDM9JFoM4d0_hDvgtWrl5DQTncSHISIU/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>80</td>
+<td>Single proportion hypothesis testing</td>
+<td><a href="https://openintro-ims.netlify.app/inference-one-prop.html#hypothesis-test-for-a-proportion">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1703wnVRF9MEDzDuhIT6P94UJoPwvnXuoK6XLIkXz9mg/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>81</td>
+<td>Two proportions</td>
+<td><a href="https://openintro-ims.netlify.app/inference-two-props.html#math-2prop">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1wxIcHV_tEoXnKcQg21s1-Hte85VQ3VN-qGkwzmGdNWc/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>82</td>
+<td>Two proportions hypothesis test</td>
+<td><a href="https://openintro-ims.netlify.app/inference-two-props.html#hypothesis-test-for-the-difference-between-two-proportions">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1RAr_RnYry-a1FRsNIwVzB-vkycAsRD6etitSoV4N1a0/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>83</td>
+<td>Two proportions mammogram</td>
+<td><a href="https://openintro-ims.netlify.app/inference-two-props.html#hypothesis-test-for-the-difference-between-two-proportions">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/1ER-IJvtNJPHOY4bQGurpqAl83rexJwQ0Db2ujo8eLAE/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>84</td>
+<td>Two way tables</td>
+<td><a href="https://openintro-ims.netlify.app/inference-tables.html#mathchisq">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/19svJFkfUojZ4uqkh9ErsPXSV1gILew9bRIs8gi8rcZs/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>85</td>
+<td>Two means</td>
+<td><a href="https://openintro-ims.netlify.app/inference-two-means.html#mathematical-model-for-estimating-the-difference-in-means">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/12prlVzGJC9OndtHSYCExnrZVzUBzXQ3Kh0tSWE7pCNs/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="even">
+<td>86</td>
+<td>Inference regression</td>
+<td><a href="https://openintro-ims.netlify.app/inf-model-slr.html#mathematical-model-interval-for-the-slope">📚</a></td>
+<td><a href="https://docs.google.com/presentation/d/18aJ5UJYxk3cphMOU_piKMdeJHUpy3vwkZmJ7CFlmJsY/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>87</td>
+<td><strong>Probability and Bayes</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>88</td>
+<td>Probability and Bayes</td>
+<td><a href="https://www.youtube.com/watch?v=HZGCoVF3YvM">📺</a></td>
+<td><a href="https://docs.google.com/presentation/d/1dJ1b2iaWS9-tUO0AKLpjDJbohNtG4in1CCyQimPhXP0/export/pdf">📑</a></td>
+<td></td>
+<td></td>
+<td>Self-study</td>
+</tr>
+<tr class="odd">
+<td>92</td>
+<td><strong>Optional content</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>93</td>
+<td>Data storytelling</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+<tr class="odd">
+<td>94</td>
+<td>Generative AI</td>
+<td></td>
+<td><a href="https://llms-ws2324.github.io/website/">💻</a></td>
+<td></td>
+<td></td>
+<td><em>Optional</em></td>
+</tr>
+</tbody>
+</table>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./course-support.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Support</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./programming-requirements.html" class="pagination-link">
+        <span class="nav-page-text">Requirements</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© <a href="https://www.kirenz.com/">Jan Kirenz</a>, 2023</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Schedule</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./course-syllabus.html">Syllabus</a>
+  </li>  
+</ul>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/data-analytics-ws2324/website/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/data-analytics-ws2324/website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+      <i class="bi bi-person-circle" role="img">
+</i> 
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://moodle.hdm-stuttgart.de/login/index.php">Moodle</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
