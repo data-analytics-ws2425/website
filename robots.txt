@@ -1,1 +1,1 @@
-Sitemap: https://data-analytics-ws2324.github.io/website/sitemap.xml
+Sitemap: https://data-analytics-ws2425.github.io/website/sitemap.xml
