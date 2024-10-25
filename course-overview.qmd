@@ -1,0 +1,19 @@
+---
+title: "Course overview"
+---
+
+![](/images/logo.png){width="50%"}
+
+In this course you will gain experience in data wrangling, exploratory data analysis, predictive modeling and effective communication of results.
+
+We will cover the following topics:
+
+- Data & Study Design
+- Exploratory data analysis
+- Linear regression models
+- Model selection methods
+- Classification and logistic regression
+- Statistical inference
+- Probability and Bayes
+- Data Storytelling
+- Generative AI

@@ -1,0 +1,104 @@
+---
+title: "Data Analytics with Statistics"
+subtitle: "Course Overview"
+---
+
+Welcome to our course Data Analytics with Statistics! 👋  
+
+:::{.callout-note}
+ Note that this schedule will be updated as the seminar progresses.
+:::
+
+|	Nr.	|	Topic	|	Literature	|		Slides		|	Links	|	Code	|	Activity	|
+|	---	|	---	|	---	|		---		|	---	|	---	|	---	|
+|	1	|	**Introduction**	|		|				|		|		|		|
+|	2	|	Data driven decision making	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|		|	Lecture	|
+|	3	|	Programming toolkit	|		|		[📑](https://docs.google.com/presentation/d/1AHDCyelaOumvZ9-MRLEaSGCulXvvo-hcoFRrTESQW-c/export/pdf)		|		|		|	Lecture	|
+|	4	|	Data Science Lifecycle Overview	|		|		[📑](https://docs.google.com/presentation/d/1LR0LmvKFycE3MIjfDEp6L_bGdJtCOe60rFycWIYayBI/export/pdf)		|		|		|	Lecture	|
+|	5	|	Use case identification	|		|		[📑](https://docs.google.com/presentation/d/1RT7IhYgLgNJ8RiT28sMr8Mfyk5y_e-rfYg3jRsPKGEA/export/pdf)		|		|		|	Self-study	|
+|	6	|	Frame the Problem	|		|		[📑](https://docs.google.com/presentation/d/12WRK3EgiHOHz2vsJnYxIxNvDQmjTMax1iTSqsjVr7JY/export/pdf)		|		|		|	Self-study	|
+|	7	|	Identify Variables	|		|		[📑](https://docs.google.com/presentation/d/1VqXuDX_3VFNOGMw3y3uQmvFr2m7b6BlW3if_icQSstM/export/pdf)		|		|		|	Self-study	|
+|	8	|	Define Metrics	|		|		[📑](https://docs.google.com/presentation/d/1vlVqqU4Frt8y_GaCs4qVx7EVPyNravGhpgkV6tGeYmY/export/pdf)		|		|		|	Self-study	|
+|	9	|	**Data**	|		|				|		|		|		|
+|	10	|	First Data Analysis	|	[📚](https://openintro-ims.netlify.app/data-hello.html#case-study-stents-strokes)	|		[📑](https://docs.google.com/presentation/d/1YXoCWZv37c3u_cMBc3o2_IG_atDlGdLhCwin_Rciwck/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ae/1_netflix.ipynb)	|	Lecture	|
+|	11	|	Data basics	|	[📚](https://openintro-ims.netlify.app/data-hello.html#data-basics)	|		[📑](https://docs.google.com/presentation/d/1IlR_HTTNE865xiT3GlXD5_RNZDMMtlbNKRftLXPPmsw/export/pdf)		|	[☑️](https://forms.gle/EJT7mcYgPi8drKgR9)	|		|	Lecture	|
+|	12	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|		|	*Optional*	|
+|	13	|	Data wrangling: Pandas lab	|	[📚](https://pandas.pydata.org/docs/)	|		[💻](https://kirenz.github.io/lab-pandas-intro)		|		|		|	Application Exercise	|
+|	14	|	Data analysis: Survey lab	|		|		[💻](https://kirenz.github.io/lab-survey)		|		|		|	*Optional*	|
+|	15	|	**Study Design**	|		|				|		|		|		|
+|	16	|	Population and sample	|	[📚](https://openintro-ims.netlify.app/data-design.html#data-design)	|		[📑](https://docs.google.com/presentation/d/1QPdxp5sFumf9zee-WypsuzSkY7n_hvkhFsdJkRF3-pw/export/pdf)		|	[☑️](https://forms.gle/qPYg55ncRyUGCqXH8)	|		|	Self-study	|
+|	17	|	Sampling methods	|	[📚](https://openintro-ims.netlify.app/data-design.html#sampling-principles-strategies)	|		[📑](https://docs.google.com/presentation/d/1Rby9NR9F8pu1xHka0Xt1vvbH-oDRfrFC-bwb49IbhA8/export/pdf)		|	[☑️](https://forms.gle/SnQsTPKF5CRQ1Wa49)	|		|	Self-study	|
+|	18	|	Experiments	|	[📚](https://openintro-ims.netlify.app/data-design.html#experiments)	|		[📑](https://docs.google.com/presentation/d/1FTNBLYBCId2qsL1sMJf3qgBtaFH3hpbUm8lPck5BaTQ/export/pdf)		|	[☑️](https://forms.gle/6Tu92Ez83XANW8Un6)	|		|	Self-study	|
+|	19	|	Observations	|	[📚](https://openintro-ims.netlify.app/data-design.html#observational-studies)	|		[📑](https://docs.google.com/presentation/d/1Oz5T_nuO1UFcjbliFmsEQWxG1dKJHDPPNWDeTvukxbE/export/pdf)		|	[☑️](https://forms.gle/V36KmsTjeH2finms9)	|		|	Self-study	|
+|	20	|	**EDA with categorical data**	|		|				|		|		|		|
+|	21	|	Loans data	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#explore-categorical)	|		[📑](https://docs.google.com/presentation/d/1o0TVpTvndPA1J23CdTtEThYSekjudkGXuW9HiEA65yc/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-data-overview.ipynb)	|	Self-study	|
+|	22	|	Contingency tables	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#contingency-tables-and-bar-plots)	|		[📑](https://docs.google.com/presentation/d/1xIfx5wWjSi2ciGDo3OcYmjOYWzQZ5jWC-UwqioKKO6k/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-contingency-table.ipynb)	|	Lecture	|
+|	23	|	Contingency tables with proportions	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#row-and-column-proportions)	|		[📑](https://docs.google.com/presentation/d/1fY1jRrnluZg9MDei9hcdtCRmRXlUqCg6lonQVzkItPQ/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-3-row-column-proportions.ipynb)	|	Self-study	|
+|	24	|	Simple bar chart	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#contingency-tables-and-bar-plots)	|		[📑](https://docs.google.com/presentation/d/1RpYvnIxE5QCK3-urCa76CHUvDqOKlFb7TdAn6XgYjew/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-1-bar-chart-altair.ipynb)	|	Lecture	|
+|	25	|	Stacked bar plot	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#bar-plots-with-two-variables)	|		[📑](https://docs.google.com/presentation/d/1TU5pqJqfgzcBRitDtSxjdRPhwl2TM9Rt3u3FHTPT020/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-2-stacked-bar-chart-altair.ipynb)	|	Lecture	|
+|	26	|	Standardized bar plot	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#bar-plots-with-two-variables)	|		[📑](https://docs.google.com/presentation/d/1BV7XwkZLfTMe5acsDomL3pcSsNhatpswRa11XuzNuLQ/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-2-standardized-bar-chart-altair.ipynb)	|	Lecture	|
+|	27	|	Pie chart	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#pie-charts)	|		[📑](https://docs.google.com/presentation/d/1Ks3jugleTrpLHwI0CDcPl2P7Uvj5z-iR35iTKJeNGxY/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-4-pie-charts-altair.ipynb)	|	Self-study	|
+|	28	|	**EDA with numerical data**	|		|				|		|		|		|
+|	29	|	Scatterplot	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#scatterplots)	|		[📑](https://docs.google.com/presentation/d/1K13NYtk-fXgIZCszUWkSN1FWqLPf8Ey8U7l9YZSQDtU/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-1-scatterplot-paired-data-altair.ipynb)	|	Self-study	|
+|	30	|	Dot plot mean median and mode	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#dotplots)	|		[📑](https://docs.google.com/presentation/d/1x0gxZ063LQOHHvvTdwP_086HPfl3Ul2PuzGDZFLXzI0/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-2-dot-plots-mean-altair.ipynb)	|	Lecture	|
+|	31	|	Histogram 	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#histograms)	|		[📑](https://docs.google.com/presentation/d/1tpbG5V28sIVdLuE_oIWzz59tRMRNL8baXu2xHzE4Hb4/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-3-histograms-altair.ipynb)	|	Lecture	|
+|	32	|	Box Plot	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#boxplots)	|		[📑](https://docs.google.com/presentation/d/1VqT9rAbE_1zfhLrWNiQRiOjiJ0-pSjN1T0DM_BMAl_A/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-5-box-plot-altair.ipynb)	|	Lecture	|
+|	33	|	Comparing numerical data across groups	|	[📚](https://openintro-ims.netlify.app/explore-categorical.html#comparing-numerical-data-across-groups)	|		[📑](https://docs.google.com/presentation/d/1yWzxDmaSVwygOQoAuRdYLq_32lIe_utHlaOWW5f63jk/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/04-6-comparisons-across-groups-altair.ipynb)	|	Lecture	|
+|	34	|	Variance and standard deviation	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#histograms)	|		[📑](https://docs.google.com/presentation/d/1bsu5VJyS1LMFM3N6oh66dQ-Qf3DWiqRMPvasIbRqpLU/export/pdf)		|		|		|	Lecture	|
+|	35	|	Kernel density plot	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#histograms)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-altair/blob/main/ae/05-3-histograms-kernel-density-altair.ipynb)	|	Self-study	|
+|	36	|	Robust statistics and transformations	|	[📚](https://openintro-ims.netlify.app/explore-numerical.html#robust-statistics)	|		[📑](https://docs.google.com/presentation/d/16Oy2-hXJgTd4IUjYSj6ZN0gBimS_Oe5OSpe7B6I91qg/export/pdf)		|		|		|	Self-study	|
+|	37	|	**Models**	|		|				|		|		|		|
+|	38	|	Statistical Learning, Machine Learning	|		|		[📑](https://docs.google.com/presentation/d/1P3MkbJseVwLggUP_lGoNoZ3mk4_nOOBFZ6GmVzvBCzM/export/pdf)		|		|		|	Lecture	|
+|	39	|	Types of Models	|		|		[📑](https://docs.google.com/presentation/d/1ZycVKQLPSHGUv3Mga1CE3BHTL0W_gfszs6SkEh7fzeU/export/pdf)		|		|		|	Lecture	|
+|	40	|	**Linear Regression models**	|		|				|		|		|		|
+|	41	|	Correlation	|	[📚](https://openintro-ims.netlify.app/model-slr.html#describing-linear-relationships-with-correlation)	|		[📑](https://docs.google.com/presentation/d/1JyvtQBRiUhjncLki3ozy4SvvgwRqS7Gmj_vUpFokzzo/export/pdf)		|	[☑️](https://forms.gle/5ntV6z8yHk8g4qgZ8)	|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-2-correlation.ipynb)	|	Lecture	|
+|	42	|	Sales and ads	|		|		[📑](https://docs.google.com/presentation/d/1q9o_PycjwItr-5PxotZFFzkwdqvo8fVskv_Y0H1CbxE/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ae/1_intro_sales.ipynb)	|	Lecture	|
+|	43	|	Mean squared error	|		|		[📑](https://docs.google.com/presentation/d/1DnX0RnGCguOE2elQJFrcu2efZp6hjre7fsTrAfBJQTA/export/pdf)		|		|		|	Application exercise	|
+|	44	|	Fitting a line and residuals	|	[📚](https://openintro-ims.netlify.app/model-slr.html#fit-line-res-cor)	|		[📑](https://docs.google.com/presentation/d/18xWbx5rkptYfOaqzpfIc7RD-LC9Y-Wgs_7tz9Z2a2hg/export/pdf)		|	[☑️](https://forms.gle/JFMXzjByDRGZtbDx8)	|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-1-fitting.ipynb)	|	Self-study	|
+|	45	|	Least squares regression	|	[📚](https://openintro-ims.netlify.app/model-slr.html#least-squares-regression)	|		[📑](https://docs.google.com/presentation/d/1jreIuC0fOiVPHt6CUNYb-Kb4uKogCeftBZP5Zum6jSQ/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-3-least-squares.ipynb)	|	Self-study	|
+|	46	|	R squared	|	[📚](https://openintro-ims.netlify.app/model-slr.html#r-squared)	|		[📑](https://docs.google.com/presentation/d/1ZIijR7F877M9peDH2rhb3IO7dP6JGDd1ypz_C2pAyGI/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-4-strength-fit.ipynb)	|	Lecture	|
+|	47	|	Categorical predictors with two levels	|	[📚](https://openintro-ims.netlify.app/model-slr.html#categorical-predictor-two-levels)	|		[📑](https://docs.google.com/presentation/d/1Ca1pslYtl_bsPgY00JMhseV4klnU81AWw6s5Y8a15PA/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/07-5-categorical.ipynb)	|	Lecture	|
+|	48	|	Outliers	|	[📚](https://openintro-ims.netlify.app/model-slr.html#outliers-in-regression)	|		[📑](https://docs.google.com/presentation/d/1UxbXpM0_BtZu9nAUczUopOOGT39hzn9Ucz0jOTYmM_Y/export/pdf)		|		|		|	Self-study	|
+|	49	|	Multiple predictors regression 1	|	[📚](https://openintro-ims.netlify.app/model-mlr.html#model-mlr)	|		[📑](https://docs.google.com/presentation/d/1ijhtWW58Kx1-ltulPSc1dKotJrXS7ZTGi6RFCKOGStA/export/pdf)		|	[☑️](https://forms.gle/wHPHMvbTDczNaQD97)	|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-1-multiple.ipynb)	|	Lecture	|
+|	50	|	Multiple predictors regression 2	|		|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-2-multiple.ipynb)	|	Lecture	|
+|	51	|	Multiple predictors regression 3	|		|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-3-multiple.ipynb)	|	Lecture	|
+|	52	|	**Linear Regression with Data Splitting**	|		|				|		|		|		|
+|	53	|	Regression example happier	|		|		[📑](https://docs.google.com/presentation/d/1ZrzKUPZqp7GlCAh4uFpXnvUW6kQTvUgD2G-YZ7B24aM/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-models/blob/main/mr/happier-c.ipynb)	|	Self-study	|
+|	54	|	Main model challenges	|		|		[📑](https://docs.google.com/presentation/d/1WPUVfUe4rZu1bt61IwjneHqldhH9nC6U0F_u7Mj_ZL4/export/pdf)		|		|		|	Self-study	|
+|	55	|	Data splitting	|		|		[📑](https://docs.google.com/presentation/d/16DAGzUTUzI_prncqDeZx2HhpNnM_xTOL_Na0xTaDeVk/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-models/blob/main/mr/happier-splitting-c.ipynb)	|	Self-study	|
+|	56	|	Sales prediction	|		|		[📑](https://docs.google.com/presentation/d/1CQUpb2fwezmni-GUeTsbxkE9ZekKK69eAzqKEdUBAm8/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08c-1-sales.ipynb)	|	Self-study	|
+|	57	|	Sales prediction with data splitting	|		|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08c-2-sales.ipynb)	|	Lecture	|
+|	58	|	**Advanced Linear Regression models**	|		|				|		|		|		|
+|	59	|	Regression splines	|	[📚](https://www.statlearning.com/)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-splines.ipynb)	|	*Optional*	|
+|	60	|	Generalized additive models	|	[📚](https://www.statlearning.com/)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-gam.ipynb)	|	*Optional*	|
+|	61	|	Adjusted R squared	|	[📚](https://openintro-ims.netlify.app/model-mlr.html#adjusted-r-squared)	|		[📑](https://docs.google.com/presentation/d/17l_8tVrVxyZRBZylkHa4J4ACCgp43gIqVgBQ5tuB9KM/export/pdf)		|		|		|	*Optional*	|
+|	62	|	Regression diagnostics	|		|				|		|	[💻](https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-diagnostics.ipynb)	|	*Optional*	|
+|	63	|	**Model Selection Methods**	|		|				|		|		|		|
+|	64	|	Model selection methods	|	[📚](http://www.feat.engineering/selection.html)	|		[📑](https://docs.google.com/presentation/d/1nosMLlMYxQ6gMw9betZ9AL6z8sHGqM7s9jL-Mf0VnXo/export/pdf)		|		|		|	*Optional*	|
+|	65	|	Implicit model selection	|	[📚](https://www.statlearning.com/)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-1-implicit.ipynb)	|	*Optional*	|
+|	66	|	Lasso regression	|	[📚](https://www.statlearning.com/)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-lasso-c.ipynb)	|	*Optional*	|
+|	67	|	Filter model selection	|	[📚](http://www.feat.engineering/selection.html)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-2-filter.ipynb)	|	*Optional*	|
+|	68	|	Wrapper model selection	|	[📚](http://www.feat.engineering/selection.html)	|				|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08d-3-wrapper.ipynb)	|	*Optional*	|
+|	69	|	**Classification models**	|		|				|		|		|		|
+|	70	|	Classification	|		|		[📑](https://docs.google.com/presentation/d/1Uait12xIaTM9rdyxSEnzIbR8opENnoOOPefuPocze3s/export/pdf)		|		|		|	Lecture	|
+|	71	|	Precision recall and F1 score	|	[📚](https://mlu-explain.github.io/precision-recall/)	|		[📑](https://docs.google.com/presentation/d/1X3_Ju8egEA8GwH_r76rxHHoC7tvHt8tMWXyT9WKfUko/export/pdf)		|		|		|	Lecture	|
+|	72	|	ROC Curve and AUC	|	[📚](https://mlu-explain.github.io/roc-auc/)	|		[📑](https://docs.google.com/presentation/d/1wapuNTe4wVBUZVmH_X6-OxZlWkQL_YkhHsqZttQUWZk/export/pdf)		|		|		|	Lecture	|
+|	73	|	Probability of an event	|	[📚](https://openintro-ims.netlify.app/model-logistic.html#modelingTheProbabilityOfAnEvent)	|		[📑](https://docs.google.com/presentation/d/1VeNM1TK6XXquHEmVNNUmzXOvdgqDFGVilN310Z6JKeg/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/09a-logistic-c.ipynb)	|	Self-study	|
+|	74	|	Logistic regression in Python	|		|				|		|	[💻](https://colab.research.google.com/github/kirenz/notebooks/blob/main/ims/copy/99-1-logistic-online.ipynb)	|	Lecture	|
+|	75	|	**Statistical Inference**	|		|				|		|		|		|
+|	76	|	introduction	|	[📚](https://openintro-ims.netlify.app/foundations-mathematical.html)	|		[📑](https://docs.google.com/presentation/d/16CnOWEpi1E7ThpWlEJ4CaSNFmqRfFM322lUXXwFmKeQ/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/13a-mathematical-c.ipynb)	|	*Optional*	|
+|	77	|	Cases and confidence	|	[📚](https://openintro-ims.netlify.app/foundations-mathematical.html#caseopp)	|		[📑](https://docs.google.com/presentation/d/1q-m2yp2zFZW3plabPVkDbUQxypoiUujbk4rmA4K_kHw/export/pdf)		|		|		|	*Optional*	|
+|	78	|	Decision errors	|	[📚](https://openintro-ims.netlify.app/decerr.html)	|		[📑](https://docs.google.com/presentation/d/1ei-Tt6pqpPl_5oiMDMA9Coavf3ksCauxsJx2oK4U6L0/export/pdf)		|		|		|	*Optional*	|
+|	79	|	Single proportion	|	[📚](https://openintro-ims.netlify.app/inference-one-prop.html#one-prop-norm)	|		[📑](https://docs.google.com/presentation/d/120AeFtpSKdjaDM9JFoM4d0_hDvgtWrl5DQTncSHISIU/export/pdf)		|		|		|	*Optional*	|
+|	80	|	Single proportion hypothesis testing	|	[📚](https://openintro-ims.netlify.app/inference-one-prop.html#hypothesis-test-for-a-proportion)	|		[📑](https://docs.google.com/presentation/d/1703wnVRF9MEDzDuhIT6P94UJoPwvnXuoK6XLIkXz9mg/export/pdf)		|		|		|	*Optional*	|
+|	81	|	Two proportions 	|	[📚](https://openintro-ims.netlify.app/inference-two-props.html#math-2prop)	|		[📑](https://docs.google.com/presentation/d/1wxIcHV_tEoXnKcQg21s1-Hte85VQ3VN-qGkwzmGdNWc/export/pdf)		|		|		|	*Optional*	|
+|	82	|	Two proportions hypothesis test	|	[📚](https://openintro-ims.netlify.app/inference-two-props.html#hypothesis-test-for-the-difference-between-two-proportions)	|		[📑](https://docs.google.com/presentation/d/1RAr_RnYry-a1FRsNIwVzB-vkycAsRD6etitSoV4N1a0/export/pdf)		|		|		|	*Optional*	|
+|	83	|	Two proportions mammogram	|	[📚](https://openintro-ims.netlify.app/inference-two-props.html#hypothesis-test-for-the-difference-between-two-proportions)	|		[📑](https://docs.google.com/presentation/d/1ER-IJvtNJPHOY4bQGurpqAl83rexJwQ0Db2ujo8eLAE/export/pdf)		|		|		|	*Optional*	|
+|	84	|	Two way tables	|	[📚](https://openintro-ims.netlify.app/inference-tables.html#mathchisq)	|		[📑](https://docs.google.com/presentation/d/19svJFkfUojZ4uqkh9ErsPXSV1gILew9bRIs8gi8rcZs/export/pdf)		|		|		|	*Optional*	|
+|	85	|	Two means	|	[📚](https://openintro-ims.netlify.app/inference-two-means.html#mathematical-model-for-estimating-the-difference-in-means)	|		[📑](https://docs.google.com/presentation/d/12prlVzGJC9OndtHSYCExnrZVzUBzXQ3Kh0tSWE7pCNs/export/pdf)		|		|		|	*Optional*	|
+|	86	|	Inference regression	|	[📚](https://openintro-ims.netlify.app/inf-model-slr.html#mathematical-model-interval-for-the-slope)	|		[📑](https://docs.google.com/presentation/d/18aJ5UJYxk3cphMOU_piKMdeJHUpy3vwkZmJ7CFlmJsY/export/pdf)		|		|		|	*Optional*	|
+|	87	|	**Probability and Bayes**	|		|				|		|		|		|
+|	88	|	Probability and Bayes	|	[📺](https://www.youtube.com/watch?v=HZGCoVF3YvM)	|		[📑](https://docs.google.com/presentation/d/1dJ1b2iaWS9-tUO0AKLpjDJbohNtG4in1CCyQimPhXP0/export/pdf)		|		|		|	Self-study	|
+|	92	|	**Optional content**	|		|				|		|		|		|
+|	93	|	Data storytelling 	|		|				|		|		|	*Optional*	|
+|	94	|	Generative AI	|		|		[💻](https://llms-ws2324.github.io/website/)		|		|		|	*Optional*	|
