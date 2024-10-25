@@ -4,16 +4,17 @@ title: "Project description"
 
 ## Timeline
 
+10 Weeks
 
 | Topic                 | Deadline      | GitHub folder & hints |
 | ---                   | ---           |  ---                  |
-| topic-ideas       |  Nov 15    | references/           |
-| project-proposal   |  Dec 01     | references/           |
-| draft-analysis     |  Dec 29    | Notebooks/            |
-| peer-review-draft  |  Jan 05    | use the issue-template|
-| report             | Jan 10    | reports/              |
-|  github-repo       | Jan 10   | "Repo in final state" |
-| presentation       | Jan 11  | "Final presentation"  |
+| topic-ideas       |  Nov 18    | references/           |
+| project-proposal   |  Dec 02     | references/           |
+| draft-analysis     |  Dec 16    | Notebooks/            |
+| peer-review-draft  |  Dec 23    | use the issue-template|
+| report             | Jan 14    | reports/              |
+|  github-repo       | Jan 15   | "Repo in final state" |
+| presentation       | Jan 16  | "Final presentation"  |
 
 
 ## Introduction
@@ -23,7 +24,7 @@ title: "Project description"
 The goal of the project is for you to use analytical methods to analyze a data set of your own choosing. You need to perform both regression and classification analysis.
 
 Choose the data based on your group's interests or work you all have done in other courses or at your company.
-The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like) and apply them to a data set to analyze it in a meaningful way.
+The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this course (and beyond, if you like) and apply them to a data set to analyze it in a meaningful way.
 
 All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation) placed inside the provided GitHub project repo.
 
@@ -59,7 +60,7 @@ The purpose of submitting project ideas is to give you time to find data for the
 
 The data sets should meet the following criteria:
 
--   At least 500 observations
+-   At least 100 observations
 
 -   At least 10 columns
 
@@ -70,9 +71,7 @@ The data sets should meet the following criteria:
 
 -   At least one variable that can be identified as a reasonable **response variable**.
 
-    -   The response variable can be quantitative or categorical.
-
--   A mix of quantitative and categorical variables that can be used as predictors.
+    -   You need two response variables: one quantitative for regression and one categorical for classification.
 
 -   Observations should reasonably meet the independence condition.
     Therefore, avoid data with repeated measures, data collected over time, etc.
