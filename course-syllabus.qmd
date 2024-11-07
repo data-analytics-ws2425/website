@@ -7,14 +7,14 @@ title: "Syllabus"
 
 |                   | Day       | Time                  | Location    |
 |--        |--|-    |-|
-| Seminar          | 10.11.23   | 09:00  - 17:00    |  Room S202  |
-| Seminar          | 11.11.23   | 09:00  - 17:00    |  Room S202  |
-| Online           | 12.11.23-10.01.24   |      |    |
-| Seminar          | 11.01.24   | 09:00  - 17:00    |  Room S303  |
+| Seminar          | 07.11.24   | 09:00  - 17:00    | [Room S203](https://horst.hdm-stuttgart.de/S203)  |
+| Seminar          | 08.11.24   | 09:00  - 17:00    |  [Room S203](https://horst.hdm-stuttgart.de/S203)  |
+| Online-Phase     | 09.11.24-15.01.25   |      |    |
+| Seminar          | 16.01.25   | 09:00  - 17:00    |  [Room S302](https://horst.hdm-stuttgart.de/S302)  |
 
 <br>
 
-- [Applied Statistics Moodle-Course](https://moodle.hdm-stuttgart.de/course/view.php?id=16202)
+- [Applied Statistics Moodle-Course](https://moodle.hdm-stuttgart.de/course/view.php?id=20529)
 
 <br>
 
@@ -29,7 +29,6 @@ Topics we will cover:
 - Exploratory data analysis
 - Linear regression models
 - Model selection methods
-- Classification and logistic regression
 - Statistical inference
 - Probability and Bayes
 - Data Storytelling
@@ -62,16 +61,17 @@ Check out the [Support](course-support.md) page for more resources.
 
 ## Textbooks
 
-Main textbooks for the course:
+Main textbook for the course:
 
-- [Introduction to Modern Statistics (Version date: April 19, 2023)](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin.
+- [Introduction to Modern Statistics (2024)](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin.
+
+Optional:
 
 - [An Introduction to Statistical Learning with Applications in Python (2023)](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor.
 
 
 - [Feature Engineering and Selection: A Practical Approach for Predictive Models (2019)](http://www.feat.engineering/index.html) by Max Kuhn and Kjell Johnson
 
-Optional:
 
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2022, 3rd Edition) by Aurélien Géron.
 
