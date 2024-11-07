@@ -40,7 +40,7 @@
     "href": "course-syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nSeminar\n10.11.23\n09:00 - 17:00\nRoom S202\n\n\nSeminar\n11.11.23\n09:00 - 17:00\nRoom S202\n\n\nOnline\n12.11.23-10.01.24\n\n\n\n\nSeminar\n11.01.24\n09:00 - 17:00\nRoom S303\n\n\n\n\n\nApplied Statistics Moodle-Course",
+    "text": "Day\nTime\nLocation\n\n\n\n\nSeminar\n07.11.24\n09:00 - 17:00\nRoom S203\n\n\nSeminar\n08.11.24\n09:00 - 17:00\nRoom S203\n\n\nOnline-Phase\n09.11.24-15.01.25\n\n\n\n\nSeminar\n16.01.25\n09:00 - 17:00\nRoom S302\n\n\n\n\n\nApplied Statistics Moodle-Course",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -51,7 +51,7 @@
     "href": "course-syllabus.html#course-info",
     "title": "Syllabus",
     "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nSeminar\n10.11.23\n09:00 - 17:00\nRoom S202\n\n\nSeminar\n11.11.23\n09:00 - 17:00\nRoom S202\n\n\nOnline\n12.11.23-10.01.24\n\n\n\n\nSeminar\n11.01.24\n09:00 - 17:00\nRoom S303\n\n\n\n\n\nApplied Statistics Moodle-Course",
+    "text": "Day\nTime\nLocation\n\n\n\n\nSeminar\n07.11.24\n09:00 - 17:00\nRoom S203\n\n\nSeminar\n08.11.24\n09:00 - 17:00\nRoom S203\n\n\nOnline-Phase\n09.11.24-15.01.25\n\n\n\n\nSeminar\n16.01.25\n09:00 - 17:00\nRoom S302\n\n\n\n\n\nApplied Statistics Moodle-Course",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -62,7 +62,7 @@
     "href": "course-syllabus.html#course-topics",
     "title": "Syllabus",
     "section": "Course topics",
-    "text": "Course topics\nGain experience in data collection, exploratory data analysis, predictive modeling, statistical inference and Bayesian statistics while working on problems and case studies inspired by and based on real-world questions.\nTopics we will cover:\n\nData & Study Design\nExploratory data analysis\nLinear regression models\nModel selection methods\nClassification and logistic regression\nStatistical inference\nProbability and Bayes\nData Storytelling\nGenerative AI\n\nThe course will focus on the Python programming language.",
+    "text": "Course topics\nGain experience in data collection, exploratory data analysis, predictive modeling, statistical inference and Bayesian statistics while working on problems and case studies inspired by and based on real-world questions.\nTopics we will cover:\n\nData & Study Design\nExploratory data analysis\nLinear regression models\nModel selection methods\nStatistical inference\nProbability and Bayes\nData Storytelling\nGenerative AI\n\nThe course will focus on the Python programming language.",
     "crumbs": [
       "Course information",
       "Syllabus"
@@ -95,7 +95,7 @@
     "href": "course-syllabus.html#textbooks",
     "title": "Syllabus",
     "section": "Textbooks",
-    "text": "Textbooks\nMain textbooks for the course:\n\nIntroduction to Modern Statistics (Version date: April 19, 2023) by Mine Çetinkaya-Rundel and Johanna Hardin.\nAn Introduction to Statistical Learning with Applications in Python (2023) by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor.\nFeature Engineering and Selection: A Practical Approach for Predictive Models (2019) by Max Kuhn and Kjell Johnson\n\nOptional:\n\nHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2022, 3rd Edition) by Aurélien Géron.",
+    "text": "Textbooks\nMain textbook for the course:\n\nIntroduction to Modern Statistics (2024) by Mine Çetinkaya-Rundel and Johanna Hardin.\n\nOptional:\n\nAn Introduction to Statistical Learning with Applications in Python (2023) by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor.\nFeature Engineering and Selection: A Practical Approach for Predictive Models (2019) by Max Kuhn and Kjell Johnson\nHands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2022, 3rd Edition) by Aurélien Géron.",
     "crumbs": [
       "Course information",
       "Syllabus"
